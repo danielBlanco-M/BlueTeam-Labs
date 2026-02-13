@@ -43,7 +43,6 @@ El atacante ejecutó un comando para descargar la primera etapa del malware.
 ### Procedimiento
 
 1. Abrimos el archivo PCAP con **Wireshark**.
-![1](images/image1.png)
 2. Filtramos por protocolo:
 
 ```bash
@@ -192,26 +191,3 @@ El atacante:
 - Implementó técnicas de evasión y ofuscación
 - Desplegó AsyncRat como backdoor
 
----
-
-Guarda las imágenes dentro de una carpeta llamada `images` en el repositorio:
-
-```
-XMLRat-Lab/
-│
-├── README.md
-└── images/
-    ├── 01-http-filter.png
-    ├── 02-tcp-stream.png
-    ├── 03-virustotal.png
-```
-
-Y añádelas así:
-
-```markdown
-![Filtro HTTP en Wireshark](images/01-http-filter.png)
-
-![Seguimiento TCP Stream](images/02-tcp-stream.png)
-
-![Análisis en VirusTotal](images/03-virustotal.png)
-```
