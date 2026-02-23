@@ -60,6 +60,7 @@ Para determinar si el ataque fue exitoso, es crucial examinar la respuesta del s
 ## 📡 Fase 3: Análisis de Tráfico DNS (Exfiltración de Datos)
 
 El atacante no solo extrajo la información a través de la web, sino que utilizó técnicas alternativas para sacar datos del entorno.
+
 **9. Filtrado por protocolo DNS**
 Para investigar la exfiltración por DNS, seguimos una metodología similar a la fase anterior, pero esta vez filtramos las alertas generadas en el tráfico `DNS`.
 
